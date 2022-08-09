@@ -1,0 +1,53 @@
+#facts-title{
+    height: 10vh;
+    color: whitesmoke;
+    background-color: #022222;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+#facts-img-container{
+    background: url("./images/vaccine_2.jpg") no-repeat center/cover;
+    height: 100vh;
+    overflow: auto;
+}
+
+#facts-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.fact-card{
+    width: 75%;
+    margin-top: 5rem;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    color: whitesmoke;
+    border: 1px double white;
+    transition: all 0.5s ease-in-out;
+}
+
+.fact-card:hover{
+    transform:translateX(50px);
+    cursor: pointer;
+}
+
+.fact-title{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Eczar', serif;
+    background-color:#022222;
+}
+
+.fact-body{
+    padding: 15px;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 8px black;
+}
